@@ -1,0 +1,93 @@
+
+body {
+  font-family: "Inter", "Segoe UI", "Tahoma", sans-serif;
+  background-color: #f3f4f4;
+  margin: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  box-sizing: border-box;
+
+}
+
+.container{
+  width: 100%;
+  height: 250px;
+  border: 1px solid  #696a6a;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  margin-top: 6px;  
+  
+}
+
+.flex-container{
+  display:flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.strip {
+        width: 100%;
+        height: 30px;
+        background-color:#FEF1D9;
+        border-radius: 6px;
+}
+
+.strip li {
+  padding-left: 2px;
+  font-size: 15px;
+  padding-top: 3px;
+  font-weight: 600 ;
+}
+
+.strip li::marker{
+  color: #FED37D;
+}
+
+.strip li b {
+  margin-left: -10px;
+}
+
+.item > p {
+  /* Your styles here */
+  font-weight: 600;
+}
+
+/* Table */
+.table-header{
+  border-spacing: 0px;
+}
+
+.table-header th {
+  /* border: 1px solid black; */
+  background-color: #f5f5f5;
+  padding-left: 10px ;  
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(189, 192, 192);
+ }
+
+.table-header td {
+  border-bottom: 1px solid rgb(189, 192, 192);
+  background-color:#f8f9fa;
+  margin: 0px;
+  border-top: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.zebra-stripe{
+  border: 10px solid black;
+}
+
+.top-countries >span {
+  font-weight: 700;
+  text-align: center;
+}
+
+.recharts-wrapper{
+  position: relative;
+  left: -103px;
+  top: -107px;
+}
